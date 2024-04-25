@@ -14,7 +14,7 @@ import AddHotel from "./pages/AddHotel";
 import { useAppContext } from "./context/AppContext";
 
 
-function App() {
+const App = () => {
   const {isLoggedIn}=useAppContext();
   return (
     <Router>
